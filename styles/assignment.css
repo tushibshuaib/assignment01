@@ -66,12 +66,56 @@ nav li a{
     .banner{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content:first baseline;
        align-items: center;
        gap: 37px;
        padding: 0px;
         width: 905px;
         height: 237px;
+    }
 
-       
+    .action-title{
+        color: #252432;
+        font-size: 42px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 49px;
+    }
+
+
+    .action{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1140px;
+        height: 330px;
+        background-color: #F5F8FF;
+    }
+    .action-description{
+        color: #25243280;
+        font-size: 24px;
+        font-weight: 400;
+        align:left ;
+    }
+    .sec1{
+        width: 500px;
+        height: 200px;
+    }
+    .action-btn{
+          background-color: #4E47FF;
+    width:230px;
+    height: 50px;
+    gap: 10px;
+    padding: 12px 36px 12px 36px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-top: 20px;
+    border-style: none;
+    }
+    .action-img{
+        width: 400px;
+        height: 330px;
+        border-radius: 50px;
+        margin: 0px 10px;
     }
