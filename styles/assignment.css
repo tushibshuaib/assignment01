@@ -177,6 +177,13 @@ nav li a{
         display: flex;
         justify-content: space-around
     }
+    .review-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; 
+        object-fit: cover;  
+        margin-right: 10px;
+    }
     .card{
         width:370px ;
         height:245px ;
@@ -228,4 +235,50 @@ nav li a{
         border-radius:50px ;
         margin: 20px 0px;
 
+       }
+       .touch{
+       position: absolute;
+       width:1140px ;
+       height:630px ;
+       padding: 70px 0px 70px 0px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       gap: 220;
+
+       }
+       .touch-title{
+        width: 530px;
+        height: 230px;
+        font-size: 100px;
+        font-weight: 700;
+       }
+       .form-title{
+        width: 500px;
+        height: 20px;
+        font-size:18px;
+        font-weight: 500;
+        color: #000000;
+       }
+       .input-box{
+        width: 500px;
+        height: 70px;
+       }
+
+       .msg-box{
+        width: 500px;
+        height: 150px;
+       }
+
+
+       .touch-btn{
+         background-color: #4E47FF;
+    width:500px;
+    height:60px;
+    gap: 10px;
+    padding: 12px 36px 12px 36px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: none;
        }
