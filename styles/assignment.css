@@ -185,3 +185,47 @@ nav li a{
         gap: 24;
         padding: 24px;
     }
+    .focus{
+        width: 1140px;
+        height: 700px;
+        /* left: 150px; */
+        /* top: 2180px; */
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20; */
+        /* padding:  70px 150px 70px 150px; */
+    }
+.focus-title{
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+       .focus-btn{
+         background-color: #4E47FF;
+    width:195px;
+    height: 50px;
+    gap: 10px;
+    padding: 12px 36px 12px 36px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: none;
+       }
+       .focus-description{
+        color: #00000080;
+        font-size: 16px;
+        font-weight: 400;
+       }
+       .focus-img{
+        width:840px ;
+        height:365px ;
+        border-radius:50px ;
+        margin: 20px 0px;
+
+       }
