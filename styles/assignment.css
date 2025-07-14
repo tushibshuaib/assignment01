@@ -163,3 +163,25 @@ nav li a{
         font-weight: 700;
         line-height: 97px;
     }
+
+    .user-review-title{
+        width: 1140px;
+        gap: 50;
+        color: #252432;
+        font-size:42px ;
+        font-weight: 700;
+        line-height:50px ;
+        text-align: center;
+    }
+    .review-cards{
+        display: flex;
+        justify-content: space-around
+    }
+    .card{
+        width:370px ;
+        height:245px ;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 24px;
+    }
