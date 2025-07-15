@@ -46,11 +46,16 @@ nav li a{
     }
 
 .banner-title{
+    width: 905px;
+    height: 155px;
     color: #252432;
     margin: 37px 0px;
     font-size: 65px;
-    font-weight: 900;
+    font-weight: 700;
+    text-align: center;
 }
+
+
     .banner-btn{
         background-color: #4E47FF;
     width:175px;
@@ -62,6 +67,8 @@ nav li a{
     box-shadow: none;
     margin-top: 20px;
     border-style: none;
+    text-align: center;
+    align-content: center;
     }
     .banner{
         display: flex;
@@ -281,4 +288,45 @@ nav li a{
     border-radius: 10px;
     box-shadow: none;
     border-style: none;
+     background-color:blue;
+     transition-duration:.10s;
+     animation:normal;
+     column-rule-style: dotted;
        }
+      footer{
+        width: 1140px;
+        height: 430px;
+         box-sizing: border-box;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        background: rgb(255, 255, 255);
+        align-items: center;
+        margin: 104px 455px 104px 300px;
+      }
+      .container{
+        width: 530px;
+        height: 180px;
+        gap: 8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0px;
+      }
+      .footer-nav{
+        display: flex;
+      }
+      .footer-title{
+        color: #4E47FF;
+        font-size: 100px;
+        font-weight: 900;
+      }
+      .footer-description{
+        color: #8987A1;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .footer-nav-li-a{
+        color:#8987A1 ;
+
+      }
+     
